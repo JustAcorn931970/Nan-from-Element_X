@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nanlab",
+  "version": "${version}",
+  "name": "NaN Lab",
+  "description": "A controlled NaN experimentation mod for Minecraft 26.3. Includes /nan commands and a Mod Menu control panel.",
+  "authors": ["NaN Lab"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nanlab.NanLabMod"
+    ],
+    "modmenu": [
+      "com.nanlab.NanLabModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
