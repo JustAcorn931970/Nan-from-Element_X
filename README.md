@@ -14,7 +14,7 @@ NaN Lab is a controlled numerical-value experiment mod for Minecraft Java 26.3.
 
 Minecraft 26.1+ uses Mojang's unobfuscated names, so this project does not use Yarn mappings.
 
-## Global numeric command arguments (1.3.0)
+## Global numeric command arguments (1.3.1)
 
 NaN Lab patches Brigadier's shared `IntegerArgumentType`, `LongArgumentType`, `FloatArgumentType`, and `DoubleArgumentType` parsers. For those standard numeric arguments, the mod reads the number directly and bypasses Brigadier's per-argument min/max validation. It also patches `StringReader.readInt/readLong/readFloat/readDouble` so special tokens work for Minecraft parsers that use those shared readers directly.
 
